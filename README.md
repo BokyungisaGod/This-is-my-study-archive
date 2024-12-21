@@ -322,4 +322,13 @@
    - 🗞️ ["구글의 비오 2, 소라에 압승"...테스터 비교 영상 속속 등장](https://www.aitimes.com/news/articleView.html?idxno=166379)
 
 - 📜 [NYU] [Self-Reflection Outcome is Sensitive to Prompt Construction](https://arxiv.org/abs/2406.10400)
-</details>
+    - LLMs → zero-shot 및 few-shot 추론 능력을 보여줌 → Self-Reflection으로 개선 가능함을 제안
+      - LLM 스스로 초기 응답의 실수를 식별하고 수정하게끔
+
+      <details>
+          <summary>주요 발견</summary>
+        
+        - 기존 Self-reflection 연구에서 사용된 대부분의 프롬프트는 편향을 포함 → LLM이 정답을 불필요하게 수정하도록 유도
+        - 보수적인 프롬프트 설계를 통해 Self-Reflection의 정확도 향상을 입증
+      </details>
+  - [Github](https://github.com/Michael98Liu/mixture-of-prompts)
